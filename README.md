@@ -5,6 +5,9 @@ Presentation planning for recent or ongoing current event related to software de
 AI use in Reverse Engineering and Security Risk Implications
 
 ### Subtopics
+- How AI reconstructs programs:
+   1. In which ways AI analyzes code and its logic to reverse engineer
+   2. Limits and what can't be done reliably
 - AI Use in reverse engineering:
    1. Reverse engineering video games, putting them in other games
    2. Reverse engineered software (PhotonStudio)
@@ -13,9 +16,9 @@ AI use in Reverse Engineering and Security Risk Implications
       
 ## Group members and roles
 1) Kenny Caza(ID:125861260)
-     - Role: Research, Edition, presentation
-3) Franchesco Yuya(ID:)
-     - Role:
+     - Role: Research, Editing, Presentation
+3) Franchesco Yuya(ID:112865266)
+     - Role: Research, Polishing, Presentation
 5) Andy Ho(ID:106974264)
      - Role: Research, Scripting, Presentation
 > **YouTube link**
