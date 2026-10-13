@@ -12,9 +12,9 @@ Green Computing & Resource Efficiency
 ## Group members and roles
 
 1) Kenny Caza(ID:125861260)
-     - Role:
+     - Role: Research, editing
 3) Franchesco Yuya(ID:)
-     - Role
+     - Role:
 5) Andy Ho(ID:106974264)
      - Role: Research, Scripting, Presentation
 > **YouTube link**
