@@ -15,6 +15,6 @@ Green Computing & Resource Efficiency
      - Role:
 3) Franchesco Yuya(ID:)
      - Role
-5) member(ID:)
-     - Role:
+5) Andy Ho(ID:106974264)
+     - Role: Research, Scripting, Presentation
 > **YouTube link**
