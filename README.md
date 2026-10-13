@@ -3,7 +3,7 @@
 Presentation planning for recent or ongoing current event related to software development.
 
 ## Main Topic
-
+Green Computing & Resource Efficiency
 ### Subtopics
 
 - Programming language trends:
