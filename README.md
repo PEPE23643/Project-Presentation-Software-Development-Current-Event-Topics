@@ -13,7 +13,7 @@ AI use in Reverse Engineering and Security Risk Implications
       
 ## Group members and roles
 1) Kenny Caza(ID:125861260)
-     - Role: Research, Editing
+     - Role: Research, Editing, presentation
 3) Franchesco Yuya(ID:)
      - Role:
 5) Andy Ho(ID:106974264)
