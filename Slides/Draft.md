@@ -11,7 +11,11 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
 3. Security Risks in the Future:
       1. If any software can be reverse engineered by AI, is all software going to be "open-source"?
 ## Introduction
-
+> Our findings connect directly to modern programming language trends and software engineering ethics:
+#### Language Safety and Lowering Barriers: 
+As low-level languages (C, C++) demand rigorous manual memory management, AI-driven reverse engineering exposes legacy flaws at scale. The trend toward memory-safe languages intersects with AI security because AI agents can rapidly audit or misinterpret complex pointer arithmetic, increasing the frequency of remote code execution risks.
+#### The Ethics of Code Provenance and Ownership: 
+Just as AI-powered reverse engineering blurs the line between legitimate auditing and trade secret theft, generative AI coding tools raise questions about training data, open-source license contamination (e.g., accidental GPL violations), and code attribution.
 ## How AI reconstructs programs:
 - Static Binary Ingestion & Decompilation Bridging: Through frameworks like REA and MCP integrations, AI coding agents interface directly with disassemblers and decompilers (Ghidra, IDA Pro, Binary Ninja). Instead of just reading text files, the AI parses assembly instructions, symbol tables, and control-flow graphs into structured pseudo-C or abstract syntax trees.
 - Semantic Pattern Recognition & Triage: AI excels at processing bulk data rapidly; explaining complex functions in plain language, suggesting meaningful variable names, mapping cross-references, and summarizing program behavior.
