@@ -30,7 +30,7 @@ Taking two decompiled games into the same language, they can be merged and varia
   - For decades, commercial desktop suites like Adobe Photoshop relied on massive R&D investments, compiled binary obscurity, and subscription models as an impenetrable economic moat. However, recent engineering breakthroughs demonstrate that black-box reverse engineering can bypass this barrier.
 ## AI Use in reverse engineering:
 ### 1. Reverse engineering in video games; using the code for running within other games.
-#### Advantages
+### Advantages
 
       1. Time efficiency: AI can speed up the process of decomplication and assembly translation by a ton compared to humans alone.
       2. Anti-Cheat analysis: Humans can let the AI detect for cheats and obscure important data to protect the users.
