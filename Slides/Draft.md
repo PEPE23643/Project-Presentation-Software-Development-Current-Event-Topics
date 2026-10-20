@@ -12,9 +12,11 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
 3. Security Risks in the Future:
       1. If any software can be reverse engineered by AI, is all software going to be "open-source"?
 ## Introduction
-> Our findings connect directly to modern programming language trends and software engineering ethics:
+### Our findings connect directly to modern programming language trends and software engineering ethics:
 #### Language Safety and Lowering Barriers
+Recent trends in AI reverse engineering leads to an explosive increase in recompiled and reshipped products and applications.
 #### The Ethics of Code Provenance and Ownership
+Just as AI-powered reverse engineering blurs the line between legitimate auditing and trade secret theft.
 ## How AI reconstructs programs:
 |Source Code / Goal | Approximation / Guess | Compile and Compare | Adjust and Recompile | Complete Code |
 |-----------------| ---------------------|-------------------|--------------------|-------------|
@@ -26,8 +28,7 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
   - For decades, commercial desktop suites like Adobe Photoshop relied on massive R&D investments, compiled binary obscurity, and subscription models as an impenetrable economic moat. However, recent engineering breakthroughs demonstrate that black-box reverse engineering can bypass this barrier.
 ## AI Use in reverse engineering:
 1. Reverse engineering in video games; using the code for running within other games.
-> Advantages:
-_____
+### Advantages:
       1. Time efficiency: AI can speed up the process of decomplication and assembly translation by a ton compared to humans alone.
       2. Anti-Cheat analysis: Humans can let the AI detect for cheats and obscure important data to protect the users.
 **Assets and Logic Porting**
