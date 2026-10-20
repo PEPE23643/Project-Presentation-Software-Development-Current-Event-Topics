@@ -1,10 +1,13 @@
 # Members script
-### Abdy Ho
-- How AI reconstructs programs:
-### Kenny Caza
-- Security Risks in the Future: In previous 
+### Andy Ho
+- Intro
+- How AI reconstructs programs
 ### Franccesco
-- AI Use in reverse engineering:
+- AI Use in reverse engineering
+- Modern Examples
+### Kenny Caza
+- Security Risks in the Future
+- Conclusion
 
 ## Slides 
 1. Introduction
