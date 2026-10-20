@@ -13,14 +13,13 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
       1. If any software can be reverse engineered by AI, is all software going to be "open-source"?
 ## Introduction
 > Our findings connect directly to modern programming language trends and software engineering ethics:
-#### Language Safety and Lowering Barriers: 
-As low-level languages (C, C++) demand rigorous manual memory management, AI-driven reverse engineering exposes legacy flaws at scale. The trend toward memory-safe languages intersects with AI security because AI agents can rapidly audit or misinterpret complex pointer arithmetic, increasing the frequency of remote code execution risks.
-#### The Ethics of Code Provenance and Ownership: 
-Just as AI-powered reverse engineering blurs the line between legitimate auditing and trade secret theft, generative AI coding tools raise questions about training data, open-source license contamination (e.g., accidental GPL violations), and code attribution.
+#### Language Safety and Lowering Barriers
+#### The Ethics of Code Provenance and Ownership
 ## How AI reconstructs programs:
-- Static Binary Ingestion & Decompilation Bridging: Through frameworks like REA and MCP integrations, AI coding agents interface directly with disassemblers and decompilers (Ghidra, IDA Pro, Binary Ninja). Instead of just reading text files, the AI parses assembly instructions, symbol tables, and control-flow graphs into structured pseudo-C or abstract syntax trees.
-- Semantic Pattern Recognition & Triage: AI excels at processing bulk data rapidly; explaining complex functions in plain language, suggesting meaningful variable names, mapping cross-references, and summarizing program behavior.
-- Behavioral & Black-Box Loop Testing: As demonstrated in modern replication workflows (like Photon Studio), AI agents employ iterative feedback loops. They write functional blocks, compile them, run tests against target specifications or file formats, and automatically rewrite code until the functional behavior matches the objective.
+|Source Code / Goal | Approximation / Guess | Compile and Compare | Adjust and Recompile | Complete Code |
+| ----------------- | --------------------- | ------------------- | -------------------- | ------------- |
+| To begin you need the both the source application and you need to know it’s compiler + flags. | Ai Agent codes and guesses variables, variable names, functions, code structure
+using industry standards. | Run the ‘guess’ code through the same compiler as the source with the same flags. Compare the output machine code bit by bit with the source’s. | Bits that compile exactly the same are correct and same as the original. Change and adjust code where the machine code bits do not line up. | Once the output machine code matches the machine code from the source, you’ve recreated the source program! |
 ## Examples 
 - Trend in reverse engineering video games and implementing game code into other gamesTrend in reverse engineering video games and implementing game code into other games
 - Proprietary software like Photoshop being reverse engineered and released for free
