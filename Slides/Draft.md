@@ -28,9 +28,9 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
 2. Reverse engineered software (PhotonStudio)
 ## Security Risks in the Future:
 ### If any software can be reverse engineered by AI, is all software going to be "open-source"?
-- **The Illusion of Compilation Security:** Historically, software vendors relied on binary compilation and obfuscation as a natural economic and technical moat. Because manual reverse engineering required specialized expertise and immense time, proprietary code remained secure even without source code access.
-- **Democratized Decompilation vs. Legal Moats:** With AI agents acting as universal translators between machine binaries and human-readable logic, the traditional security-through-obscurity model is collapsing. In practice, technically, any software can now be reverse-engineered, analyzed, and functionally cloned much faster.
-- **Will All Software Become Open-Source? No, not legally or structurally.** While AI makes software deconstructable, Document 4 highlights that legal protections will fiercely resist this shift. Rather than everything becoming open-source, we are moving into an era of enforced opacity: software will be easily analyzed by AI in private labs, but distributing cloned or reverse-engineered binaries will trigger  cryptographic locking mechanisms.
+- **The Illusion of Compilation Security:** Because manual reverse engineering required specialized expertise and immense time, proprietary code remained secure even without source code access.
+- **Democratized Decompilation vs. Legal Moats:** In practice, technically, any software can now be reverse-engineered, analyzed, and functionally cloned much faster.
+- **Will All Software Become Open-Source? No, not legally or structurally.** Rather than everything becoming open-source, we are moving into an era of enforced opacity: software will be easily analyzed by AI in private labs, but distributing cloned or reverse-engineered binaries will trigger  cryptographic locking mechanisms.
 ## Conclusion
 - This investigation explored the transformative intersection of Artificial Intelligence and Reverse Engineering, mapping its technical capabilities, security vulnerabilities, legal paradoxes, and the shifting boundaries of accountability.
 ## References
