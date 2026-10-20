@@ -21,12 +21,13 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
 | To begin you need the both the source application and you need to know it’s compiler + flags. | Ai Agent codes and guesses variables, variable names, functions, code structure using industry standards. | Run the ‘guess’ code through the same compiler as the source with the same flags. Compare the output machine code bit by bit with the source’s. | Bits that compile exactly the same are correct and same as the original. Change and adjust code where the machine code bits do not line up. | Once the output machine code matches the machine code from the source, you’ve recreated the source program! |
 ## Examples 
 - Trend in reverse engineering video games and implementing game code into other games.
-      - Reverse-engineering and porting video games required volunteer communities years of manual assembly analysis, guessing, and trial-and-error over months or years. By utilizing AI agents and modern tools (like REA), users can analyze compiled machine code and rebuild functionally equivalent source code that behaves identically to the original within weeks or days.
+  - Reverse-engineering and porting video games required volunteer communities years of manual assembly analysis, guessing, and trial-and-error over months or years. By utilizing AI agents and modern tools (like REA), users can analyze compiled machine code and rebuild functionally equivalent source code that behaves identically to the original within weeks or days.
 - Proprietary software like Photoshop being reverse engineered and released for free.
-      - For decades, commercial desktop suites like Adobe Photoshop relied on massive R&D investments, compiled binary obscurity, and subscription models as an impenetrable economic moat. However, recent engineering breakthroughs demonstrate that black-box reverse engineering can bypass this barrier.
+  - For decades, commercial desktop suites like Adobe Photoshop relied on massive R&D investments, compiled binary obscurity, and subscription models as an impenetrable economic moat. However, recent engineering breakthroughs demonstrate that black-box reverse engineering can bypass this barrier.
 ## AI Use in reverse engineering:
 1. Reverse engineering in video games; using the code for running within other games.
 > Advantages:
+_____
       1. Time efficiency: AI can speed up the process of decomplication and assembly translation by a ton compared to humans alone.
       2. Anti-Cheat analysis: Humans can let the AI detect for cheats and obscure important data to protect the users.
 **Assets and Logic Porting**
