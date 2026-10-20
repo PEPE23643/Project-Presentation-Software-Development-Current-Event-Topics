@@ -8,7 +8,9 @@
 
 ## Slides 
 1. Introduction
-2. How AI is Used in Reverse Engineering (How it works)
+      1. Language Safety and Lowering Barriers: As low-level languages (C, C++) demand rigorous manual memory management, AI-driven reverse engineering exposes legacy flaws at scale. The trend toward memory-safe languages intersects with AI security because AI agents can rapidly audit or misinterpret complex pointer arithmetic, increasing the frequency of remote code execution risks.
+      2. The Ethics of Code Provenance and Ownership: Just as AI-powered reverse engineering blurs the line between legitimate auditing and trade secret theft, generative AI coding tools raise questions about training data, open-source license contamination (e.g., accidental GPL violations), and code attribution.
+3. How AI is Used in Reverse Engineering (How it works)
    - Reverse engineering is brute force check-n-go
         - Use the same compiler as the original devs, guess how their code looked, compile and compare, edit what doesn't match
         - The end goal is the exact same code written by the original devs byte for byte
@@ -17,10 +19,10 @@
         - Method goes from taking years to taking weeks/days
    - Still not perfect
         - AI is still relatively new, still delivers incorrect code, may try to 'cheat'
-3. Current Examples
+4. Current Examples
    - Trend in reverse engineering video games
         - Recent trend in reverse engineering games, taking game code and systems, and implementing them in to other games (from different consoles, or generation)
         - Trend only began early Oct
    - Proprietary software like Photoshop being reverse engineered and released for free
-4. What does this mean for the future?
+5. What does this mean for the future?
    - Ultimately, AI cannot replace foundational technical expertise or human judgment. Governance requires a dual approach: technical sandboxing combined with structural legal reforms that harmonize intellectual property protections with the need for safety transparency.
