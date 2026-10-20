@@ -17,7 +17,7 @@ Introduction: AI use in Reverse Engineering and Security Risk Implications
 #### The Ethics of Code Provenance and Ownership
 ## How AI reconstructs programs:
 |Source Code / Goal | Approximation / Guess | Compile and Compare | Adjust and Recompile | Complete Code |
-| ----------------- | --------------------- | ------------------- | -------------------- | ------------- |
+|-----------------| ---------------------|-------------------|--------------------|-------------|
 | To begin you need the both the source application and you need to know it’s compiler + flags. | Ai Agent codes and guesses variables, variable names, functions, code structure
 using industry standards. | Run the ‘guess’ code through the same compiler as the source with the same flags. Compare the output machine code bit by bit with the source’s. | Bits that compile exactly the same are correct and same as the original. Change and adjust code where the machine code bits do not line up. | Once the output machine code matches the machine code from the source, you’ve recreated the source program! |
 ## Examples 
