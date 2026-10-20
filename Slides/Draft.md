@@ -33,9 +33,9 @@ Taking two decompiled games into the same language, they can be merged and varia
 ### Advantages
       1. Time efficiency: AI can speed up the process of decomplication and assembly translation by a ton compared to humans alone.
       2. Anti-Cheat analysis: Humans can let the AI detect for cheats and obscure important data to protect the users.
-**Assets and Logic Porting**
+- **Assets and Logic Porting**
 AI-assisted reverse engineering allows analysts to deconstruct proprietary game engines, asset formats, and physics loops. Allowing to match the original srouce code byte by byte.
-**Legally speaking**
+- **Legally speaking**
 While extracting code or assets from a commercial game and injecting them into another violates copyright, AI lowers the technical barrier to doing it. It can translate custom file structures into readable specifications, therefore acting as the “Dirty room”,  while the humans only gets the specifications without knowing the original code.
 ## Security Risks in the Future:
 ### If any software can be reverse engineered by AI, is all software going to be "open-source"?
