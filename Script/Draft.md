@@ -1,15 +1,15 @@
 # Members script
 ### Abdy Ho
-- Through frameworks like REA and MCP integrations, AI coding agents interface directly with disassemblers and decompilers (Ghidra, IDA Pro, Binary Ninja). Instead of just reading text files, the AI parses assembly instructions, symbol tables, and control-flow graphs into structured pseudo-C or abstract syntax trees.
+- How AI reconstructs programs:
 ### Kenny Caza
-- However, this acceleration introduces severe systemic risks: hallucinations, privacy leakage via cloud APIs, obfuscation blind spots, and the automated weaponization of binaries into remote code execution (RCE) vectors.
+- Security Risks in the Future: In previous 
 ### Franccesco
-- Historically, software vendors relied on binary compilation and obfuscation as a natural economic and technical moat. Because manual reverse engineering required specialized expertise and immense time, proprietary code remained secure even without source code access.
+- AI Use in reverse engineering:
 
 ## Slides 
 1. Introduction
-      1. Language Safety and Lowering Barriers: As low-level languages (C, C++) demand rigorous manual memory management, AI-driven reverse engineering exposes legacy flaws at scale. The trend toward memory-safe languages intersects with AI security because AI agents can rapidly audit or misinterpret complex pointer arithmetic, increasing the frequency of remote code execution risks.
-      2. The Ethics of Code Provenance and Ownership: Just as AI-powered reverse engineering blurs the line between legitimate auditing and trade secret theft, generative AI coding tools raise questions about training data, open-source license contamination (e.g., accidental GPL violations), and code attribution.
+      1. Language Safety and Lowering Barriers
+      2. The Ethics of Code Provenance and Ownership
 3. How AI is Used in Reverse Engineering (How it works)
    - Reverse engineering is brute force check-n-go
         - Use the same compiler as the original devs, guess how their code looked, compile and compare, edit what doesn't match
@@ -25,4 +25,4 @@
         - Trend only began early Oct
    - Proprietary software like Photoshop being reverse engineered and released for free
 5. What does this mean for the future?
-   - Ultimately, AI cannot replace foundational technical expertise or human judgment. Governance requires a dual approach: technical sandboxing combined with structural legal reforms that harmonize intellectual property protections with the need for safety transparency.
+   - Ultimately, AI cannot replace foundational technical expertise or human judgment. 
