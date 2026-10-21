@@ -23,4 +23,4 @@ AI use in Reverse Engineering and Security Risk Implications
      - Role: Research, Scripting, Presentation, Team coordination
    
 > **YouTube link**
-https://youtu.be/Cc4kBZHsi8o?si=mMaE0QsDlbMNeTLm
+[Presentation](https://youtu.be/s98yW7s81_I?si=d2UqEDTbHrC-UPU8)
