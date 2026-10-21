@@ -22,3 +22,4 @@ AI use in Reverse Engineering and Security Risk Implications
 5) Andy Ho(ID:106974264)
      - Role: Research, Scripting, Presentation
 > **YouTube link**
+https://youtu.be/Cc4kBZHsi8o?si=mMaE0QsDlbMNeTLm
